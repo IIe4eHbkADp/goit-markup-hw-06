@@ -733,6 +733,9 @@ body {
   border-radius: 4px;
   outline: none;
 }
+.modal-label {
+  font-size: 12px;
+}
 .modal-area:focus {
   border-color: var(--accent-text-color);
 }
@@ -784,6 +787,7 @@ body {
   border-bottom: 1px solid var(--accent-text-color);
   color: var(--accent-text-color);
   margin-left: 4px;
+  line-height: 100%;
 }
 .visually-hidden {
   clip: rect(0 0 0 0);
